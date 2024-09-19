@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.personal-info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.personal-info > input {
+  width: 90%;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.hr {
+  width: 90%;
+  margin-top: 20px;
+}
