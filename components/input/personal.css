@@ -1,33 +1,66 @@
 body {
   width: 100%;
   border: 1px solid white;
+  font-weight: 100;
 }
 
 .container {
   display: flex;
   flex: 1;
+  min-height: 100vh;
+}
+
+.input-div {
+  border: 1px solid white;
+  width: 400px;
 }
 
 .personal-info {
-  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-left: 20px;
 }
 
-.personal-info > input {
+.inputs {
   width: 90%;
+}
+
+.education-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-more-btn {
+  width: 40px;
+  align-self: flex-end;
+  margin-right: 20px;
 }
 
 .resume {
   display: flex;
   flex-direction: column;
-  margin-left: 20%;
-  text-align: center;
+  align-items: center;
+
+  width: 100vw;
+}
+
+.edu {
+  padding-left: 10%;
+  align-self: flex-start;
+}
+
+.summary-info {
+  margin-top: 20px;
 }
 
 .hr {
   width: 90%;
   margin-top: 20px;
+}
+
+.explanation {
+  text-align: center;
 }

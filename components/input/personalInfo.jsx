@@ -1,4 +1,3 @@
-import React from "react";
 import "./personal.css";
 
 export default function PersonalInfoFields({
@@ -13,6 +12,7 @@ export default function PersonalInfoFields({
 }) {
   return (
     <div className="personal-info">
+      <h1>Personal info</h1>
       <label htmlFor="first-name">First Name: </label>
       <input
         className="inputs"
